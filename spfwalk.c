@@ -31,6 +31,7 @@
 #include <unistd.h>
 
 #include "dns.h"
+#include "min_libopenbsd.c"
 
 
 static void	usage(void);
