@@ -1,7 +1,3 @@
-I DROPPED OWNERSHIP OF THIS PROJECT, THIS REPOSITORY IS NO LONGER MAINTAINED.
 
-SPFWALK CODE HAS BEEN MERGED WITH THE OPENSMTPD PROJECT AND WILL NOW BE SHIPPED WITH IT.
-
-THE STANDALONE SPFWALK PROJECT IS NOW MAINTAINED BY: @akpoff
-
-    https://github.com/akpoff/spfwalk
+(Ugly) fork from [akpoff](https://github.com/akpoff/spfwalk) to work on
+Linux with glibc.
