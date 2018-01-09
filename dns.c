@@ -225,7 +225,7 @@ print_dname(const char *_dname, char *buf, size_t max)
         size_t   left, n, count;
 
         if (_dname[0] == 0) {
-                (void)strlcpy(buf, ".", max);
+		snprintf(buf, max, "%s", ".");
                 return buf;
         }
 
