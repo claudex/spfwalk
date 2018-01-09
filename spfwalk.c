@@ -100,8 +100,8 @@ main(int argc, char *argv[])
 		free(line);
 	}
 
-	if (pledge("dns stdio", NULL) == -1)
-		err(1, "pledge");
+	//if (pledge("dns stdio", NULL) == -1)
+	//	err(1, "pledge");
 
   	event_dispatch();
 
